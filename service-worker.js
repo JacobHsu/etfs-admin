@@ -1,4 +1,4 @@
-importScripts("/etfs-admin/precache-manifest.cc59f105c83c6d3f77d7cd01a096928f.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/etfs-admin/precache-manifest.7f9dc9ae1f8696f53cb69fdbc6dcaa27.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 // This is the code piece that GenerateSW mode can't provide for us.
 // This code listens for the user's confirmation to update the app.
