@@ -3,13 +3,14 @@ import { Response, Request } from 'express'
 import { IArticleData } from '../src/api/types'
 
 const articleList: IArticleData[] = []
-const articleCount = 100
+const articleCount = 10
 const mockFullContent = '<p>I am testing data, I am testing data.</p><p><img src="https://wpimg.wallstcn.com/4c69009c-0fd4-4153-b112-6cb53d1cf943"></p>'
 
 for (let i = 0; i < articleCount; i++) {
   articleList.push({
     id: i,
     status: faker.random.arrayElement(['published', 'draft']),
+    name: faker.lorem.sentence(6, 10),
     title: faker.lorem.sentence(6, 10),
     abstractContent: faker.lorem.sentences(2),
     fullContent: mockFullContent,
@@ -19,9 +20,40 @@ for (let i = 0; i < articleCount; i++) {
     platforms: [faker.random.arrayElement(['a-platform', 'b-platform', 'c-platform'])],
     disableComment: faker.random.boolean(),
     importance: faker.random.number({ min: 1, max: 3 }),
-    author: faker.name.findName(),
+    issuer: faker.name.findName(),
     reviewer: faker.name.findName(),
-    type: faker.random.arrayElement(['CN', 'US', 'JP', 'EU']),
+    type: faker.random.arrayElement(['US', 'JP', 'EU']),
+    pageviews: faker.random.number({ min: 300, max: 500 })
+  })
+}
+
+const etfs = [
+  { id: 'AAXJ', index: '全亞洲不含日本', name: 'iShares MSCI All Country Asia ex Japan ETF', etf: 'AAXJ', issuer: 'iShares', star: 2 },
+  { id: 'AFK', index: '非洲指數', name: 'VanEck Vectors Africa ETF', etf: 'AFK', issuer: 'VanEck', star: 0 },
+  { id: 'AIA', index: '亞洲50指數', name: 'iShares Asia 50 ETF', etf: 'AIA', issuer: 'iShares', star: 4 },
+  { id: 'ANGL', index: '高收益債券', name: 'VanEck Vectors Fallen Angel High Yield Bond ETF', etf: 'ANGL', issuer: 'VanEck', star: 5 },
+  { id: 'ASEA', index: '東南亞指數', name: 'Global X FTSE Southeast Asia ETF', etf: 'ASEA', issuer: 'Global X', star: 1 },
+  { id: 'ASHR', index: '滬深300中國A股', name: 'Xtrackers Harvest CSI 300 China A', etf: 'ASHR', issuer: 'DWS', star: 3 },
+  { id: 'AWAY', index: '旅游科技', name: 'ETFMG Travel Tech ETF', etf: 'AWAY', issuer: '', star: 0 }
+]
+
+for (let i = 0; i < etfs.length; i++) {
+  articleList.push({
+    id: i,
+    status: faker.random.arrayElement(['published', 'draft']),
+    name: etfs[i].etf,
+    title: etfs[i].name,
+    abstractContent: faker.lorem.sentences(2),
+    fullContent: mockFullContent,
+    sourceURL: faker.internet.url(),
+    imageURL: faker.image.imageUrl(),
+    timestamp: faker.date.past().getTime(),
+    platforms: [faker.random.arrayElement(['a-platform', 'b-platform', 'c-platform'])],
+    disableComment: faker.random.boolean(),
+    importance: etfs[i].star,
+    issuer: etfs[i].issuer,
+    reviewer: faker.name.findName(),
+    type: 'ETF',
     pageviews: faker.random.number({ min: 300, max: 500 })
   })
 }

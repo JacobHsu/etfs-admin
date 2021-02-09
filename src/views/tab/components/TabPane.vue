@@ -21,10 +21,10 @@
     <el-table-column
       width="180px"
       align="center"
-      label="Date"
+      label="Name"
     >
       <template slot-scope="{row}">
-        <span>{{ row.timestamp | parseTime }}</span>
+        <b>{{ row.name }}</b>
       </template>
     </el-table-column>
 
@@ -33,7 +33,7 @@
       label="Title"
     >
       <template slot-scope="{row}">
-        <span>{{ row.title }}</span>
+        <span>{{ row.title }}&ensp;</span>
         <el-tag>{{ row.type }}</el-tag>
       </template>
     </el-table-column>
@@ -41,16 +41,16 @@
     <el-table-column
       width="180px"
       align="center"
-      label="Author"
+      label="Issuer"
     >
       <template slot-scope="{row}">
-        <span>{{ row.author }}</span>
+        <span>{{ row.issuer }}</span>
       </template>
     </el-table-column>
 
     <el-table-column
       width="120px"
-      label="Importance"
+      label="Morningstar"
     >
       <template slot-scope="{row}">
         <svg-icon
@@ -58,16 +58,6 @@
           :key="n"
           name="star"
         />
-      </template>
-    </el-table-column>
-
-    <el-table-column
-      align="center"
-      label="Readings"
-      width="95"
-    >
-      <template slot-scope="{row}">
-        <span>{{ row.pageviews }}</span>
       </template>
     </el-table-column>
 
@@ -93,12 +83,12 @@ import { getArticles } from '@/api/articles'
   name: 'TabPane'
 })
 export default class extends Vue {
-  @Prop({ default: 'CN' }) private type!: string
+  @Prop({ default: 'ETF' }) private type!: string
 
   private list = null
   private listQuery = {
     page: 1,
-    limit: 5,
+    limit: 10,
     type: this.type,
     sort: 'id'
   }

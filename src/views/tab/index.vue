@@ -42,13 +42,13 @@ import TabPane from './components/TabPane.vue'
 })
 export default class extends Vue {
   private tabMapOptions = [
-    { label: 'China', key: 'CN' },
+    { label: 'ETFS', key: 'ETF' },
     { label: 'USA', key: 'US' },
     { label: 'Japan', key: 'JP' },
     { label: 'Eurozone', key: 'EU' }
   ]
 
-  private activeName = 'CN'
+  private activeName = 'ETF'
   private createdTimes = 0
 
   @Watch('activeName')

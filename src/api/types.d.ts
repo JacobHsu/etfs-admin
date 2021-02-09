@@ -1,6 +1,7 @@
 export interface IArticleData {
   id: number
   status: string
+  name: string
   title: string
   abstractContent: string
   fullContent: string
@@ -10,7 +11,7 @@ export interface IArticleData {
   platforms: string[]
   disableComment: boolean
   importance: number
-  author: string
+  issuer: string
   reviewer: string
   type: string
   pageviews: number

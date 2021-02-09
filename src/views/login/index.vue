@@ -172,6 +172,8 @@ export default class extends Vue {
     } else if (this.loginForm.password === '') {
       (this.$refs.password as Input).focus()
     }
+
+    this.handleLogin() // auto login
   }
 
   private checkCapslock(e: KeyboardEvent) {

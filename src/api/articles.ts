@@ -4,6 +4,7 @@ import { IArticleData } from './types'
 export const defaultArticleData: IArticleData = {
   id: 0,
   status: 'draft',
+  name: '',
   title: '',
   fullContent: '',
   abstractContent: '',
@@ -13,7 +14,7 @@ export const defaultArticleData: IArticleData = {
   platforms: ['a-platform'],
   disableComment: false,
   importance: 0,
-  author: '',
+  issuer: '',
   reviewer: '',
   type: '',
   pageviews: 0
