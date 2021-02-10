@@ -43,7 +43,7 @@ import TabPane from './components/TabPane.vue'
 export default class extends Vue {
   private tabMapOptions = [
     { label: 'ETFS', key: 'ETF' },
-    { label: 'USA', key: 'US' },
+    { label: '國家', key: 'c' },
     { label: 'Japan', key: 'JP' },
     { label: 'Eurozone', key: 'EU' }
   ]

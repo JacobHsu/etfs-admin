@@ -39,6 +39,15 @@
     </el-table-column>
 
     <el-table-column
+      min-width="240px"
+      label="Tag"
+    >
+      <template slot-scope="{row}">
+        <span>{{ row.tag }}</span>
+      </template>
+    </el-table-column>
+
+    <el-table-column
       width="180px"
       align="center"
       label="Issuer"
@@ -88,7 +97,7 @@ export default class extends Vue {
   private list = null
   private listQuery = {
     page: 1,
-    limit: 10,
+    limit: 100,
     type: this.type,
     sort: 'id'
   }

@@ -3,6 +3,7 @@ export interface IArticleData {
   status: string
   name: string
   title: string
+  tag: string
   abstractContent: string
   fullContent: string
   sourceURL: string
