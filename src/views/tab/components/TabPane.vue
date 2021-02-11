@@ -97,7 +97,7 @@ export default class extends Vue {
   private list = null
   private listQuery = {
     page: 1,
-    limit: 100,
+    limit: 125,
     type: this.type,
     sort: 'id'
   }

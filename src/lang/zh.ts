@@ -41,7 +41,7 @@ export default {
     draggableTable: '可拖拽表格',
     inlineEditTable: '表格内编辑',
     complexTable: '综合表格',
-    tab: '分栏',
+    tab: '美股',
     form: '表单',
     createArticle: '创建文章',
     editArticle: '编辑文章',

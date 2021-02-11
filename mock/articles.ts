@@ -1,6 +1,7 @@
 import faker from 'faker'
 import { Response, Request } from 'express'
 import { IArticleData } from '../src/api/types'
+import { etfs } from './data/etfs'
 
 const articleList: IArticleData[] = []
 const articleCount = 10
@@ -27,43 +28,6 @@ for (let i = 0; i < articleCount; i++) {
     pageviews: faker.random.number({ min: 300, max: 500 })
   })
 }
-
-// https://www.morningstar.com/
-const etfs = [
-  { id: 'AAXJ', tag: '全亞洲不含日本', name: 'iShares MSCI All Country Asia ex Japan ETF', etf: 'AAXJ', issuer: 'iShares', star: 2 },
-  { id: 'AFK', tag: '非洲指數', name: 'VanEck Vectors Africa ETF', etf: 'AFK', issuer: 'VanEck', star: 0 },
-  { id: 'AIA', tag: '亞洲50指數', name: 'iShares Asia 50 ETF', etf: 'AIA', issuer: 'iShares', star: 4 },
-  { id: 'ANGL', tag: '高收益債券', name: 'VanEck Vectors Fallen Angel High Yield Bond ETF', etf: 'ANGL', issuer: 'VanEck', star: 5 },
-  { id: 'ASEA', tag: '東南亞指數', name: 'Global X FTSE Southeast Asia ETF', etf: 'ASEA', issuer: 'Global X', star: 1 },
-  { id: 'ASHR', tag: '滬深300中國A股', name: 'Xtrackers Harvest CSI 300 China A', etf: 'ASHR', issuer: 'DWS', star: 3 },
-  { id: 'AWAY', tag: '旅游科技', name: 'ETFMG Travel Tech ETF', etf: 'AWAY', issuer: '', star: 0 },
-  { id: 'BKF', tag: '金磚四國', name: 'iShares MSCI BRIC ETF', etf: 'BKF', issuer: 'iShares', star: 3 },
-  { id: 'BLV', tag: '長期債券', name: 'Vanguard Long-Term Bond ETF', etf: 'BLV', issuer: 'Vanguard', star: 3 },
-  { id: 'BND', tag: '總體債券市場', name: 'Vanguard Total Bond Market ETF', etf: 'BND', issuer: 'Vanguard', star: 3 },
-  { id: 'BNDX', tag: '國際債券', name: 'Vanguard Total International Bond ETF', etf: 'BNDX', issuer: 'Vanguard', star: 3 },
-  { id: 'BWX', tag: '國際政府債券', name: 'SPDR Bloomberg Barclays International Treasury Bond ETF', etf: 'BWX', issuer: 'SPDR', star: 3 },
-  { id: 'COPX', tag: '銅礦', name: 'Global X Copper Miners ETF', etf: 'COPX', issuer: 'Global X', star: 2 },
-  { id: 'DBB', tag: '基本金屬', name: 'Invesco DB Base Metals Fund', etf: 'DBB', issuer: 'Invesco', star: 0 },
-  { id: 'DBC', tag: '原物料', name: 'Invesco DB Commodity Index Tracking Fund', etf: 'Invesco', issuer: 'Invesco', star: 2 },
-  { id: 'DIA', tag: '道瓊工業平均指數', name: 'SPDR Dow Jones Industrial Average ETF', etf: 'DIA', issuer: 'SPDR', star: 5 },
-  { id: 'DOG', tag: '看空道瓊30指數', name: 'ProShares Short Dow30', etf: 'DOG', issuer: 'ProShares', star: 0 },
-  { id: 'EBND', tag: '新興市場當地債券', name: 'SPDR Bloomberg Barclays Emerging Markets Local Bond ETF', etf: 'EBND', issuer: 'SPDR', star: 4 },
-  { id: 'EEM', tag: '新興市場', name: 'iShares MSCI Emerging Markets ETF', etf: 'EEM', issuer: 'iShares', star: 3 },
-  { id: 'EFA', tag: '歐澳遠東', name: 'iShares MSCI EAFE ETF', etf: 'EFA', issuer: 'iShares', star: 3 },
-  { id: 'EMB', tag: '新興市場債', name: 'iShares JP Morgan USD Emerging Markets', etf: 'EMB', issuer: 'iShares', star: 4 },
-  { id: 'ESGV', tag: 'ESG永續', name: 'Vanguard ESG U.S. Stock ETF', etf: 'ESGV', issuer: 'Vanguard', star: 0 },
-  { id: 'ESPO', tag: '電競', name: 'VanEck Vectors Video Gaming and eSports ETF', etf: 'ESPO', issuer: 'VanEck', star: 0 },
-  { id: 'FDN', tag: '網路股指數', name: 'First Trust DJ Internet Index F', etf: 'FDN', issuer: 'First Trust', star: 3 },
-  { id: 'FINX', tag: '金融科技', name: 'Find the latest Global X FinTech ETF', etf: 'FINX', issuer: 'Global X', star: 2 },
-  { id: 'FLZA', tag: '富時南非', name: 'Franklin FTSE South Africa ETF', etf: 'FLZA', issuer: 'Franklin', star: 0 },
-  { id: 'FM', tag: '邊境市場', name: 'MSCI Frontier Markets 100 Index', etf: 'FM', issuer: 'iShares', star: 1 },
-  { id: 'FXA', tag: '澳幣', name: 'Invesco CurrencyShares Australian Dollar ETF', etf: 'FXA', issuer: 'Invesco', star: 0 },
-  { id: 'FXB', tag: '英鎊', name: 'Invesco CurrencyShares British Pound ETF', etf: 'FXB', issuer: 'Invesco', star: 0 },
-  { id: 'FXE', tag: '歐元', name: 'Invesco CurrencyShares Euro Cur ETF', etf: 'FXE', issuer: 'Invesco', star: 0 },
-  { id: 'FXI', tag: '中國大型股', name: 'iShares China Large-Cap ETF', etf: 'FXI', issuer: 'iShares', star: 2 },
-  { id: 'FXY', tag: '日圓', name: 'Invesco CurrencyShares Japanese Yen Trust ETF', etf: 'FXY', issuer: 'Invesco', star: 0 }
-
-]
 
 for (let i = 0; i < etfs.length; i++) {
   articleList.push({

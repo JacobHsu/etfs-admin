@@ -6,6 +6,7 @@ export const defaultArticleData: IArticleData = {
   status: 'draft',
   name: '',
   title: '',
+  tag: '',
   fullContent: '',
   abstractContent: '',
   sourceURL: '',
