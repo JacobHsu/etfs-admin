@@ -50,6 +50,7 @@ export const etfs = [
   { id: 'IYT', tag: '運輸指數', name: 'iShares Transportation Average ETF', etf: 'IYT', issuer: 'iShares', star: 3 },
   { id: 'JETS', tag: '全球噴射機', name: 'U.S. Global Jets ETF', etf: 'JETS', issuer: 'iShares', star: 0 },
   { id: 'JNK', tag: '高收益債', name: 'SPDR Bloomberg Barclays High Yield Bond ETF', etf: 'JNK', issuer: 'iShares', star: 3 },
+  { id: 'KWEB', tag: '中國網路', name: 'KraneShares CSI China Internet ETF', etf: 'KWEB', issuer: 'KraneShares', star: 3 },
   { id: 'LEMB', tag: '當地貨幣債券', name: 'iShares J.P. Morgan EM Local Currency Bond ETF', etf: 'LEMB', issuer: 'iShares', star: 1 },
   { id: 'MGC', tag: '美國大型股', name: 'Vanguard Mega Cap ETF', etf: 'MGC', issuer: 'iShares', star: 5 },
   { id: 'MXI', tag: '全球原物料', name: 'iShares Global Materials ETF', etf: 'MXI', issuer: 'iShares', star: 4 },

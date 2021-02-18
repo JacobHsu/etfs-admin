@@ -2,6 +2,7 @@ import faker from 'faker'
 import { Response, Request } from 'express'
 import { IArticleData } from '../src/api/types'
 import { etfs } from './data/etfs'
+import { countries } from './data/countries'
 
 const articleList: IArticleData[] = []
 const articleCount = 10
@@ -50,13 +51,6 @@ for (let i = 0; i < etfs.length; i++) {
     pageviews: faker.random.number({ min: 300, max: 500 })
   })
 }
-
-const countries = [
-  { id: 'ARGT', tag: '阿根廷', name: 'Global X MSCI Argentina ETF', etf: 'ARGT', issuer: 'Global X', star: 0, type: 'c' },
-  { id: 'EWA', tag: '澳大利亞', name: 'iShares MSCI Australia ETF', etf: 'EWA', issuer: 'iShares', star: 0, type: 'c' },
-  { id: 'EWO', tag: '奧地利', name: 'iShares MSCI Austria ETF', etf: 'EWO', issuer: 'iShares', star: 0, type: 'c' },
-  { id: 'EWK', tag: '比利時', name: 'iShares MSCI Belgium ETF', etf: 'EWK', issuer: 'iShares', star: 0, type: 'c' }
-]
 
 for (let i = 0; i < countries.length; i++) {
   articleList.push({
