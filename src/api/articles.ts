@@ -18,6 +18,7 @@ export const defaultArticleData: IArticleData = {
   issuer: '',
   reviewer: '',
   type: '',
+  vanguard: '',
   pageviews: 0
 }
 

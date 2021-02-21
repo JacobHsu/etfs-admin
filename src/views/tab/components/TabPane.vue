@@ -34,7 +34,7 @@
     >
       <template slot-scope="{row}">
         <span>{{ row.title }}&ensp;</span>
-        <el-tag>{{ row.type }}</el-tag>
+        <el-tag>{{ row.vanguard }}</el-tag>
       </template>
     </el-table-column>
 

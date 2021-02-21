@@ -15,6 +15,7 @@ export interface IArticleData {
   issuer: string
   reviewer: string
   type: string
+  vanguard: string
   pageviews: number
 }
 
