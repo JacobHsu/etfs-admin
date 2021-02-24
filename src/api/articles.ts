@@ -19,6 +19,7 @@ export const defaultArticleData: IArticleData = {
   reviewer: '',
   type: '',
   vanguard: '',
+  category: '',
   pageviews: 0
 }
 

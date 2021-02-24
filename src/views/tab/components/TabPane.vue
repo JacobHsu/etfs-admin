@@ -34,7 +34,8 @@
     >
       <template slot-scope="{row}">
         <span>{{ row.title }}&ensp;</span>
-        <el-tag>{{ row.vanguard }}</el-tag>
+        <el-tag v-if="row.type==='c'">{{ row.vanguard }}</el-tag>
+        <el-tag v-if="row.type==='ETF'">{{ row.category }}</el-tag>
       </template>
     </el-table-column>
 

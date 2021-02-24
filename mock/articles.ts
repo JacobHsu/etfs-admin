@@ -27,6 +27,7 @@ for (let i = 0; i < articleCount; i++) {
     reviewer: faker.name.findName(),
     type: faker.random.arrayElement(['JP', 'EU']),
     vanguard: '',
+    category: '',
     pageviews: faker.random.number({ min: 300, max: 500 })
   })
 }
@@ -50,6 +51,7 @@ for (let i = 0; i < etfs.length; i++) {
     reviewer: faker.name.findName(),
     type: 'ETF',
     vanguard: '',
+    category: etfs[i].category,
     pageviews: faker.random.number({ min: 300, max: 500 })
   })
 }
@@ -73,6 +75,7 @@ for (let i = 0; i < countries.length; i++) {
     reviewer: faker.name.findName(),
     type: countries[i].type,
     vanguard: countries[i].vanguard,
+    category: '',
     pageviews: faker.random.number({ min: 300, max: 500 })
   })
 }
