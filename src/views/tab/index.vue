@@ -44,8 +44,9 @@ export default class extends Vue {
   private tabMapOptions = [
     { label: 'ETFS', key: 'ETF' },
     { label: '國家', key: 'c' },
-    { label: 'Japan', key: 'JP' },
-    { label: 'Eurozone', key: 'EU' }
+    { label: '債卷', key: 'bond' },
+    { label: '主動型', key: 'ARK' },
+    { label: '個股', key: 'stock' }
   ]
 
   private activeName = 'ETF'
