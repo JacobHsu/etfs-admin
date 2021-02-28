@@ -1,7 +1,8 @@
 <template>
   <div class="dashboard-editor-container">
-    <github-corner class="github-corner" />
-
+    <a href="https://finviz.com/map.ashx?t=sec_all">
+      <img src="https://finviz.com/publish/022721/sec_all_w1_025534131.png" alt="heat map">
+    </a>
     <panel-group @handle-set-line-chart-data="handleSetLineChartData" />
 
     <el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">

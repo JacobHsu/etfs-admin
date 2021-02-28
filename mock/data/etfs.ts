@@ -111,14 +111,5 @@ export const etfs = [
   { id: 'VYM', tag: '高股利', category: '指數', name: 'Vanguard High Dividend Yield ETF', etf: 'VYM', issuer: 'Vanguard', star: 4, type: 'ETF' },
   { id: 'WOOD', tag: '林業', category: '產業', name: 'iShares Global Timber & Forestry ETF', etf: 'WOOD', issuer: 'iShares', star: 4, type: 'ETF' },
   { id: 'XHB', tag: '房屋建築商', category: '產業', name: 'SPDR S&P Homebuilders ETF', etf: 'XHB', issuer: 'SPDR', star: 2, type: 'ETF' },
-  { id: 'XLB', tag: '原物料', category: '資源', name: 'Materials Select Sector SPDR ETF', etf: 'XLB', issuer: 'SPDR', star: 4, type: 'ETF' },
-  { id: 'XLC', tag: '通訊服務', category: '產業', name: 'Communication Services Sel Sect SPDR ETF', etf: 'XLC', issuer: 'SPDR', star: 0, type: 'ETF' },
-  { id: 'XLF', tag: '金融類股', category: '產業', name: 'Financial Select Sector SPDR ETF', etf: 'XLF', issuer: 'SPDR', star: 3, type: 'ETF' },
-  { id: 'XLI', tag: '工業', category: '產業', name: 'Industrial Select Sector SPDR ETF', etf: 'XLI', issuer: 'SPDR', star: 4, type: 'ETF' },
-  { id: 'XLP', tag: '消費類', category: '產業', name: 'Consumer Staples Select Sector SPDR ETF', etf: 'XLF', issuer: 'XLP', star: 3, type: 'ETF' },
-  { id: 'XLU', tag: '公用事業', category: '產業', name: 'Utilities Select Sector SPDR ETF', etf: 'XLU', issuer: 'SPDR', star: 4, type: 'ETF' },
-  { id: 'XLV', tag: '健康照護', category: '產業', name: 'Health Care Select Sector SPDR ETF', etf: 'XLV', issuer: 'SPDR', star: 3, type: 'ETF' },
-  { id: 'XLY', tag: '消費類', category: '產業', name: 'Consumer Discret Sel Sect SPDR ETF', etf: 'XLY', issuer: 'SPDR', star: 4, type: 'ETF' },
-  { id: 'XOP', tag: '油氣開採', category: '資源', name: 'SPDR S&P Oil & Gas Explor & Prodtn ETF', etf: 'XOP', issuer: 'SPDR', star: 2, type: 'ETF' },
   { id: 'YXI', tag: '放空中國', category: '指數', name: 'ProShares Short FTSE China 50', etf: 'YXI', issuer: 'ProShares', star: 0, type: 'ETF' }
 ]
