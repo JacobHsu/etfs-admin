@@ -47,6 +47,7 @@ export default class extends Vue {
     { label: '債卷', key: 'bond' },
     { label: '主動型', key: 'ARK' },
     { label: 'SPDR', key: 'SPDR' },
+    { label: 'Vanguard', key: 'vanguard' },
     { label: '個股', key: 'stock' }
   ]
 
