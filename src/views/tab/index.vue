@@ -48,6 +48,8 @@ export default class extends Vue {
     { label: '主動型', key: 'ARK' },
     { label: 'SPDR', key: 'SPDR' },
     { label: 'Vanguard', key: 'vanguard' },
+    { label: 'iShares', key: 'ishares' },
+    { label: 'Invesco', key: 'invesco' },
     { label: '個股', key: 'stock' }
   ]
 
