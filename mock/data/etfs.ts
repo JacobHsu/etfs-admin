@@ -9,7 +9,6 @@ export const etfs = [
   { id: 'ASHR', tag: '滬深300中國A股', category: '區域', name: 'Xtrackers Harvest CSI 300 China A', etf: 'ASHR', issuer: 'DWS', star: 3, type: 'ETF' },
   { id: 'AWAY', tag: '旅游科技', category: '產業', name: 'ETFMG Travel Tech ETF', etf: 'AWAY', issuer: 'ETFMG', star: 0, type: 'ETF' },
   { id: 'BKF', tag: '金磚四國', category: '區域', name: 'iShares MSCI BRIC ETF', etf: 'BKF', issuer: 'iShares', index: 'MSCI BRIC Index', star: 3, type: 'ETF' },
-  { id: 'BWX', tag: '國際政府債券', category: '債券', name: 'SPDR Bloomberg Barclays International Treasury Bond ETF', etf: 'BWX', issuer: 'SPDR', star: 3, type: 'ETF' },
   { id: 'COPX', tag: '銅礦', category: '資源', name: 'Global X Copper Miners ETF', etf: 'COPX', issuer: 'Global X', star: 2, type: 'ETF' },
   { id: 'DBB', tag: '基本金屬', category: '資源', name: 'Invesco DB Base Metals Fund', etf: 'DBB', issuer: 'Invesco', star: 0, type: 'ETF' },
   { id: 'DBC', tag: '原物料', category: '資源', name: 'Invesco DB Commodity Index Tracking Fund', etf: 'DBC', issuer: 'Invesco', star: 2, type: 'ETF' },

@@ -50,6 +50,7 @@ export default class extends Vue {
     { label: 'Vanguard', key: 'vanguard' },
     { label: 'iShares', key: 'ishares' },
     { label: 'Invesco', key: 'invesco' },
+    { label: 'Morningstar', key: 'morningstar' },
     { label: '個股', key: 'stock' }
   ]
 

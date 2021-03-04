@@ -50,3 +50,15 @@ export const invesco = [
   { id: 'PXI', tag: '能源', category: '產業', name: 'Invesco DWA Energy Momentum ETF', etf: 'PXI', issuer: 'Invesco', star: 3, type: 'invesco' },
   { id: 'PSR', tag: '房地產', category: '產業', name: 'Invesco Active U.S. Real Estate ETF', etf: 'PSR', issuer: 'Invesco', star: 4, type: 'invesco' }
 ]
+
+export const morningstar = [
+  { id: 'JKD', tag: '大型股', category: '產業', name: 'iShares Morningstar Large-Cap ETF', etf: 'JKD', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'JKE', tag: '大型成長股', category: '產業', name: 'iShares Morningstar Large-Cap Growth ETF', etf: 'JKE', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'JKF', tag: '大型價值股', category: '產業', name: 'iShares Morningstar Large-Cap Value ETF', etf: 'JKF', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'JKG', tag: '中型股', category: '產業', name: 'iShares Morningstar Mid-Cap ETF', etf: 'JKG', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'JKH', tag: '中型成長股', category: '產業', name: 'iShares Morningstar Mid-Cap Growth ETF', etf: 'JKH', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'JKI', tag: '中型價值股', category: '產業', name: 'iShares Morningstar Mid-Cap Value ETF', etf: 'JKI', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'JKJ', tag: '小型股', category: '產業', name: 'iShares Morningstar Small-Cap ETF', etf: 'JKJ', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'JKK', tag: '小型成長股', category: '產業', name: 'iShares Morningstar Small-Cap Growth ETF', etf: 'JKK', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'JKL', tag: '小型價值股', category: '產業', name: 'iShares Morningstar Small-Cap Value ETF', etf: 'JKL', issuer: 'iShares', star: 3, type: 'morningstar' }
+]
