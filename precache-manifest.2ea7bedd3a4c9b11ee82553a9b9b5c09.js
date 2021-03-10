@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/etfs-admin/css/404.96fe1c26.css"
   },
   {
-    "revision": "a74c9b61f7cdfac66e7e",
+    "revision": "4254318be3762c9b2f0e",
     "url": "/etfs-admin/css/app.835d6813.css"
   },
   {
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/etfs-admin/img/404.a57b6f31.png"
   },
   {
-    "revision": "548575b263f44fde893d14be5627fecc",
+    "revision": "9d3492b3683007e70659dc74ca5f0e6a",
     "url": "/etfs-admin/index.html"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/etfs-admin/js/404.c82fa418.js"
   },
   {
-    "revision": "a74c9b61f7cdfac66e7e",
-    "url": "/etfs-admin/js/app.b60fad25.js"
+    "revision": "4254318be3762c9b2f0e",
+    "url": "/etfs-admin/js/app.82c97aa0.js"
   },
   {
     "revision": "dc1d59800d3606e8dcd8",
