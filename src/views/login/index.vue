@@ -173,7 +173,7 @@ export default class extends Vue {
       (this.$refs.password as Input).focus()
     }
 
-    this.handleLogin() // auto login
+    // this.handleLogin() // auto login
   }
 
   private checkCapslock(e: KeyboardEvent) {

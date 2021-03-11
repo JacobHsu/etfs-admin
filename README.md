@@ -37,6 +37,43 @@ https://vue-typescript-admin-mock-server.armour.now.sh/mock-api/v1/articles?page
 
 https://etfs-admin-api.jacobhsu.vercel.app/mock-api/v1/articles?page=1&limit=125&type=ETF&sort=id
 
+## login
+
+```js
+  mounted() {
+    if (this.loginForm.username === '') {
+      (this.$refs.username as Input).focus()
+    } else if (this.loginForm.password === '') {
+      (this.$refs.password as Input).focus()
+    }
+
+    this.handleLogin() // auto login
+  }
+```
+
+store\modules\user.ts
+```js
+  @Action
+  public async Login(userInfo: { username: string, password: string}) {
+    let { username, password } = userInfo
+    username = username.trim()
+    // const { data } = await login({ username, password })
+    const { data } = {
+      // "code": 20000,
+      "data": {
+          "accessToken": "admin-token"
+      }
+    }
+```
+
+```js
+    //const { data } = await getUserInfo({ /* Your params here */ })
+    const { data } = {
+       // "code":20000,
+      "data":{"user":{"id":0,"username":"admin","password":"any","name":"Super Admin","avatar":"https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif","introduction":"I am a super administrator","email":"admin@test.com","phone":"1234567890","roles":["admin"]}}
+    }
+```
+
 ## Overview
 
 [vue-typescript-admin-template](http://armour.github.io/vue-typescript-admin-template) is a production-ready front-end solution for admin interfaces based on [vue](https://github.com/vuejs/vue), [typescript](https://www.typescriptlang.org/) and UI Toolkit [element-ui](https://github.com/ElemeFE/element). The original Javascript version code [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin/) was written by [PanJiaChen](https://github.com/PanJiaChen), many thanks to him for the awesome open source project! :)
