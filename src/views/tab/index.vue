@@ -51,6 +51,7 @@ export default class extends Vue {
     { label: 'iShares', key: 'ishares' },
     { label: 'Invesco', key: 'invesco' },
     { label: 'Morningstar', key: 'morningstar' },
+    { label: '幣', key: 'currency' },
     { label: '個股', key: 'stock' }
   ]
 

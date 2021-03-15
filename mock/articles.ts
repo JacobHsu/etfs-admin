@@ -6,6 +6,7 @@ import { countries } from './data/countries'
 import { stock } from './data/stock'
 import { bond } from './data/bond'
 import { ark } from './data/ark'
+import { currency } from './data/currency'
 import { spdr, vanguard, ishares, invesco, morningstar } from './data/us'
 
 const articleList: IArticleData[] = []
@@ -36,7 +37,7 @@ for (let i = 0; i < articleCount; i++) {
   })
 }
 
-const array1 = [etfs, stock, bond, spdr, vanguard, ishares, invesco, ark, morningstar]
+const array1 = [etfs, stock, bond, spdr, vanguard, ishares, invesco, ark, morningstar, currency]
 array1.map(item => {
   for (let i = 0; i < item.length; i++) {
     articleList.push({
