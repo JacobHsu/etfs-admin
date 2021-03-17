@@ -10,5 +10,7 @@ export const stock = [
   { id: 'DIS', tag: '迪士尼', category: '媒體', name: 'Walt Disney Co', etf: 'DIS', issuer: '', star: 0, type: 'stock' },
   { id: 'DVN', tag: '德文能源', category: '能源', name: 'Devon Energy Corp', etf: 'DVN', issuer: '', star: 0, type: 'stock' },
   { id: 'ETN', tag: '電源管理', category: '科技', name: 'Eaton Corporation, PLC', etf: 'ETN', issuer: '', star: 0, type: 'stock' },
-  { id: 'LMND', tag: 'AI保險', category: '保險', name: 'Lemonade, Inc.', etf: 'LMND', issuer: '', star: 0, type: 'stock' }
+  { id: 'LMND', tag: 'AI保險', category: '保險', name: 'Lemonade, Inc.', etf: 'LMND', issuer: '', star: 0, type: 'stock' },
+  { id: 'MSFT', tag: '微軟', category: '科技', name: 'Microsoft Corporation', etf: 'MSFT', issuer: '', star: 0, type: 'stock' },
+  { id: 'NFLX', tag: '網飛', category: '媒體', name: 'Netflix, Inc.', etf: 'NFLX', issuer: '', star: 0, type: 'stock' }
 ]
