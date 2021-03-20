@@ -11,6 +11,8 @@ export const stock = [
   { id: 'DVN', tag: '德文能源', category: '能源', name: 'Devon Energy Corp', etf: 'DVN', issuer: '', star: 0, type: 'stock' },
   { id: 'ETN', tag: '電源管理', category: '科技', name: 'Eaton Corporation, PLC', etf: 'ETN', issuer: '', star: 0, type: 'stock' },
   { id: 'LMND', tag: 'AI保險', category: '保險', name: 'Lemonade, Inc.', etf: 'LMND', issuer: '', star: 0, type: 'stock' },
+  { id: 'JNJ', tag: '嬌生公司', category: '醫療', name: 'Johnson & Johnson', etf: 'JNJ', issuer: '', star: 0, type: 'stock' },
   { id: 'MSFT', tag: '微軟', category: '科技', name: 'Microsoft Corporation', etf: 'MSFT', issuer: '', star: 0, type: 'stock' },
-  { id: 'NFLX', tag: '網飛', category: '媒體', name: 'Netflix, Inc.', etf: 'NFLX', issuer: '', star: 0, type: 'stock' }
+  { id: 'NFLX', tag: '網飛', category: '媒體', name: 'Netflix, Inc.', etf: 'NFLX', issuer: '', star: 0, type: 'stock' },
+  { id: 'ZM', tag: 'Zoom', category: '科技', name: 'Zoom Video Communications, Inc.', etf: 'ZM', issuer: '', star: 0, type: 'stock' }
 ]

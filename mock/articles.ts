@@ -6,6 +6,7 @@ import { countries } from './data/countries'
 import { stock } from './data/stock'
 import { bond } from './data/bond'
 import { ark } from './data/ark'
+import { bear } from './data/bear'
 import { sector } from './data/sector'
 import { currency } from './data/currency'
 import { spdr, vanguard, ishares, invesco, morningstar } from './data/us'
@@ -38,7 +39,7 @@ for (let i = 0; i < articleCount; i++) {
   })
 }
 
-const array1 = [etfs, stock, bond, spdr, vanguard, ishares, invesco, ark, morningstar, sector, currency]
+const array1 = [etfs, stock, bear, bond, spdr, vanguard, ishares, invesco, ark, morningstar, sector, currency]
 array1.map(item => {
   for (let i = 0; i < item.length; i++) {
     articleList.push({

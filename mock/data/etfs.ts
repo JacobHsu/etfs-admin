@@ -14,7 +14,6 @@ export const etfs = [
   { id: 'DBB', tag: '基本金屬', category: '資源', name: 'Invesco DB Base Metals Fund', etf: 'DBB', issuer: 'Invesco', star: 0, type: 'ETF' },
   { id: 'DBC', tag: '原物料', category: '資源', name: 'Invesco DB Commodity Index Tracking Fund', etf: 'DBC', issuer: 'Invesco', star: 2, type: 'ETF' },
   { id: 'DIA', tag: '道瓊工業平均指數', category: '指數', name: 'SPDR Dow Jones Industrial Average ETF', etf: 'DIA', issuer: 'SPDR', index: 'Dow Jones Industrial Average', star: 5, type: 'ETF' },
-  { id: 'DOG', tag: '看空道瓊30指數', category: '指數', name: 'ProShares Short Dow30', etf: 'DOG', issuer: 'ProShares', star: 0, type: 'ETF' },
   { id: 'EDUT', tag: '教育', category: '產業', name: 'Global X Education ETF', etf: 'EDUT', issuer: 'Global X', star: 0, type: 'ETF' },
   { id: 'EEM', tag: '新興市場', category: '區域', name: 'iShares MSCI Emerging Markets ETF', etf: 'EEM', issuer: 'iShares', star: 3, type: 'ETF' },
   { id: 'EFA', tag: '歐澳遠東', category: '區域', name: 'iShares MSCI EAFE ETF', etf: 'EFA', issuer: 'iShares', star: 3, type: 'ETF' },
@@ -46,8 +45,6 @@ export const etfs = [
   { id: 'REZ', tag: '住宅', category: '產業', name: 'iShares Residential Real Estate ETF', etf: 'REZ', issuer: 'iShares', star: 4, type: 'ETF' },
   { id: 'RTH', tag: '零售業', category: '產業', name: 'VanEck Vectors Retail ETF', etf: 'RTH', issuer: 'VanEck', star: 4, type: 'ETF' },
   { id: 'SDIV', tag: '高股利', category: '指數', name: 'Global X Superdividend ETF', etf: 'SDIV', issuer: 'Global X', index: 'Solactive Global SuperDividend Index', star: 1, type: 'ETF' },
-  { id: 'SDOW', tag: '放空道瓊', category: '指數', name: 'ProShares UltraPro Short Dow30', etf: 'SDOW', issuer: 'ProShares', star: 0, type: 'ETF' },
-  { id: 'SH', tag: '看空史坦普500', category: '指數', name: 'ProShares Short S&P500', etf: 'SH', issuer: 'ProShares', star: 0, type: 'ETF' },
   { id: 'SIL', tag: '銀礦', category: '資源', name: 'Global X Silver Miners ETF', etf: 'SIL', issuer: 'Global X', star: 2, type: 'ETF' },
   { id: 'SLV', tag: '白銀', category: '資源', name: 'iShares Silver ETF', etf: 'SLV', issuer: 'iShares', star: 0, type: 'ETF' },
   { id: 'SLX', tag: '鋼鐵', category: '資源', name: 'VanEck Vectors Steel ETF', etf: 'SLX', issuer: 'VanEck', star: 3, type: 'ETF' },
@@ -64,8 +61,6 @@ export const etfs = [
   { id: 'VGK', tag: '歐洲', category: '區域', name: 'Vanguard FTSE Europe ETF', etf: 'VGK', issuer: 'Vanguard', star: 3, type: 'ETF' },
   { id: 'VIG', tag: '股息增值', category: '產業', name: 'Vanguard Dividend Appreciation ETF', etf: 'VIG', issuer: 'Vanguard', star: 3, type: 'ETF' },
   { id: 'VIGI', tag: '國際股利增值', category: '產業', name: 'Vanguard Intl Div Apprec ETF', etf: 'VIGI', issuer: 'Vanguard', star: 3, type: 'ETF' },
-  { id: 'VIXM', tag: 'VIX指數', category: '指數', name: 'ProShares VIX Mid-Term Futures', etf: 'VIXM', issuer: 'ProShares', index: 'S&P 500 VIX Mid-Term Futures Index', star: 0, type: 'ETF' },
-  { id: 'VIXY', tag: 'VIX指數', category: '指數', name: 'ProShares VIX Short-Term Futures', etf: 'VIXY', issuer: 'ProShares', index: 'S&P 500 VIX Short-Term Futures Index', star: 0, type: 'ETF' },
   { id: 'VOO', tag: '標普500', category: '指數', name: 'Vanguard S&P 500 ETF', etf: 'VOO', issuer: 'ProShares', star: 5, type: 'ETF' },
   { id: 'VOT', tag: '中型成長', category: '指數', name: 'Vanguard Mid-Cap Growth ETF', etf: 'VOT', issuer: 'Vanguard', index: 'CRSP US Mid Cap Growth Index', star: 3, type: 'ETF' },
   { id: 'VPL', tag: '太平洋', category: '區域', name: 'Vanguard FTSE Pacific ETF', etf: 'VPL', issuer: 'Vanguard', star: 3, type: 'ETF' },
@@ -75,7 +70,5 @@ export const etfs = [
   { id: 'VUG', tag: '成長股', category: '指數', name: 'Vanguard Growth ETF', etf: 'VUG', issuer: 'Vanguard', star: 4, type: 'ETF' },
   { id: 'VWO', tag: '新興市場', category: '區域', name: 'Vanguard FTSE Emerging Markets ETF', etf: 'VWO', issuer: 'Vanguard', star: 3, type: 'ETF' },
   { id: 'VXUS', tag: '總體國際股票', category: '區域', name: 'Vanguard Total International Stock ETF', etf: 'VXUS', issuer: 'Vanguard', star: 3, type: 'ETF' },
-  { id: 'VYM', tag: '高股利', category: '指數', name: 'Vanguard High Dividend Yield ETF', etf: 'VYM', issuer: 'Vanguard', star: 4, type: 'ETF' },
-
-  { id: 'YXI', tag: '放空中國', category: '指數', name: 'ProShares Short FTSE China 50', etf: 'YXI', issuer: 'ProShares', star: 0, type: 'ETF' }
+  { id: 'VYM', tag: '高股利', category: '指數', name: 'Vanguard High Dividend Yield ETF', etf: 'VYM', issuer: 'Vanguard', star: 4, type: 'ETF' }
 ]

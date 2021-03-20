@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-editor-container">
     <a href="https://finviz.com/map.ashx?t=sec_all">
-      <img src="https://finviz.com/publish/022721/sec_all_w1_025534131.png" alt="heat map">
+      <img src="https://finviz.com/publish/032021/sec_all_w1_061845160.png" alt="heat map">
     </a>
     <panel-group @handle-set-line-chart-data="handleSetLineChartData" />
 

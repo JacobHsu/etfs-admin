@@ -70,18 +70,6 @@
         />
       </template>
     </el-table-column>
-
-    <el-table-column
-      class-name="status-col"
-      label="Status"
-      width="110"
-    >
-      <template slot-scope="{row}">
-        <el-tag :type="row.status | articleStatusFilter">
-          {{ row.status }}
-        </el-tag>
-      </template>
-    </el-table-column>
   </el-table>
 </template>
 
