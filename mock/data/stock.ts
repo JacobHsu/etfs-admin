@@ -5,6 +5,7 @@ export const stock = [
   { id: 'API', tag: '聲網公司', category: '科技', name: 'Agora, Inc.', etf: 'API', issuer: '', star: 0, type: 'stock' },
   { id: 'BABA', tag: '阿里巴巴', category: '電商', name: 'Alibaba Group Holding Limited', etf: 'BABA', issuer: '', star: 0, type: 'stock' },
   { id: 'BNGO', tag: '基因組分析', category: '生技', name: 'Bionano Genomics, Inc.', etf: 'BNGO', issuer: '', star: 0, type: 'stock' },
+  { id: 'BRK.B', tag: '波克夏', category: '控股', name: 'Berkshire Hathaway Inc. Class B', etf: 'BRK.B', issuer: '', star: 0, type: 'stock' },
   { id: 'CHWY', tag: '寵物', category: '零售', name: 'Chewy, Inc.', etf: 'CHWY', issuer: '', star: 0, type: 'stock' },
   { id: 'DAL', tag: '達美航空', category: '航空', name: 'Delta Air Lines Inc', etf: 'DAL', issuer: '', star: 0, type: 'stock' },
   { id: 'DIS', tag: '迪士尼', category: '媒體', name: 'Walt Disney Co', etf: 'DIS', issuer: '', star: 0, type: 'stock' },
@@ -14,5 +15,7 @@ export const stock = [
   { id: 'JNJ', tag: '嬌生公司', category: '醫療', name: 'Johnson & Johnson', etf: 'JNJ', issuer: '', star: 0, type: 'stock' },
   { id: 'MSFT', tag: '微軟', category: '科技', name: 'Microsoft Corporation', etf: 'MSFT', issuer: '', star: 0, type: 'stock' },
   { id: 'NFLX', tag: '網飛', category: '媒體', name: 'Netflix, Inc.', etf: 'NFLX', issuer: '', star: 0, type: 'stock' },
+  { id: 'OPEN', tag: 'Opendoor', category: '房地產', name: 'Opendoor Technologies, Inc.', etf: 'OPEN', issuer: '', star: 0, type: 'stock' },
+  { id: 'RCL', tag: '皇家加勒比遊輪', category: '遊輪', name: 'Royal Caribbean Group', etf: 'RCL', issuer: '', star: 0, type: 'stock' },
   { id: 'ZM', tag: 'Zoom', category: '科技', name: 'Zoom Video Communications, Inc.', etf: 'ZM', issuer: '', star: 0, type: 'stock' }
 ]

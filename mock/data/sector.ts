@@ -7,11 +7,14 @@ export const sector = [
   { id: 'CARZ', tag: '汽車', category: '產業', name: 'First Trust NASDAQ Global Auto Index ETF', etf: 'CARZ', issuer: 'First Trust', star: 2, type: 'sector' },
   { id: 'CLOU', tag: '雲端運算', category: '產業', name: 'Global X Cloud Computing ETF', etf: 'CLOU', issuer: 'Global X', star: 0, type: 'sector' },
   { id: 'DRIV', tag: '電動車', category: '產業', name: 'Global X Atnms & Elctrc Vhcls ETF', etf: 'DRIV', issuer: 'Global X', star: 0, type: 'sector' },
+  { id: 'EDUT', tag: '教育', category: '產業', name: 'Global X Education ETF', etf: 'EDUT', issuer: 'Global X', star: 0, type: 'sector' },
   { id: 'HERO', tag: '電競', category: '產業', name: 'Global X Video Games & Esports ETF', etf: 'HERO', issuer: 'iShares', star: 0, type: 'sector' },
   { id: 'FILL', tag: '能源生產商', category: '資源', name: 'iShares MSCI Global Energy Producers ETF', etf: 'FILL', issuer: 'iShares', star: 5, type: 'sector' },
+  { id: 'FINX', tag: '金融科技', category: '產業', name: 'Find the latest Global X FinTech ETF', etf: 'FINX', issuer: 'Global X', star: 2, type: 'sector' },
   { id: 'IPAY', tag: '移動支付', category: '產業', name: 'ETFMG Prime Mobile Payments ETF', etf: 'IPAY', issuer: 'ETFMG', star: 0, type: 'sector' },
   { id: 'JETS', tag: '全球噴射機', category: '產業', name: 'U.S. Global Jets ETF', etf: 'JETS', issuer: 'iShares', star: 0, type: 'sector' },
   { id: 'SKYY', tag: '雲端運算', category: '產業', name: 'First Trust Cloud Computing ETF', etf: 'SKYY', issuer: 'First Trust', star: 4, type: 'sector' },
+  { id: 'PICK', tag: '全球金屬與礦產生產商', category: '產業', name: 'iShares MSCI Global Metals & Mining Producers ETF', etf: 'PICK', issuer: 'iShares', star: 4, type: 'sector' },
   { id: 'UFO', tag: '太空', category: '產業', name: 'Procure Space ETF', etf: 'UFO', issuer: 'ProcureAM', star: 0, type: 'sector' },
   { id: 'WOOD', tag: '林業', category: '產業', name: 'iShares Global Timber & Forestry ETF', etf: 'WOOD', issuer: 'iShares', star: 4, type: 'sector' }
 ]

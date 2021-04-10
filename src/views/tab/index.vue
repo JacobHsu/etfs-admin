@@ -53,6 +53,7 @@ export default class extends Vue {
     { label: 'Invesco', key: 'invesco' },
     { label: 'Morningstar', key: 'morningstar' },
     { label: '產業', key: 'sector' },
+    { label: '全球', key: 'global' },
     { label: '幣', key: 'currency' },
     { label: '個股', key: 'stock' }
   ]

@@ -52,13 +52,13 @@ export const invesco = [
 ]
 
 export const morningstar = [
-  { id: 'JKD', tag: '大型股', category: '產業', name: 'iShares Morningstar Large-Cap ETF', etf: 'JKD', issuer: 'iShares', star: 4, type: 'morningstar' },
-  { id: 'JKE', tag: '大型成長股', category: '產業', name: 'iShares Morningstar Large-Cap Growth ETF', etf: 'JKE', issuer: 'iShares', star: 4, type: 'morningstar' },
-  { id: 'JKF', tag: '大型價值股', category: '產業', name: 'iShares Morningstar Large-Cap Value ETF', etf: 'JKF', issuer: 'iShares', star: 3, type: 'morningstar' },
-  { id: 'JKG', tag: '中型股', category: '產業', name: 'iShares Morningstar Mid-Cap ETF', etf: 'JKG', issuer: 'iShares', star: 4, type: 'morningstar' },
-  { id: 'JKH', tag: '中型成長股', category: '產業', name: 'iShares Morningstar Mid-Cap Growth ETF', etf: 'JKH', issuer: 'iShares', star: 4, type: 'morningstar' },
-  { id: 'JKI', tag: '中型價值股', category: '產業', name: 'iShares Morningstar Mid-Cap Value ETF', etf: 'JKI', issuer: 'iShares', star: 3, type: 'morningstar' },
-  { id: 'JKJ', tag: '小型股', category: '產業', name: 'iShares Morningstar Small-Cap ETF', etf: 'JKJ', issuer: 'iShares', star: 3, type: 'morningstar' },
-  { id: 'JKK', tag: '小型成長股', category: '產業', name: 'iShares Morningstar Small-Cap Growth ETF', etf: 'JKK', issuer: 'iShares', star: 3, type: 'morningstar' },
-  { id: 'JKL', tag: '小型價值股', category: '產業', name: 'iShares Morningstar Small-Cap Value ETF', etf: 'JKL', issuer: 'iShares', star: 3, type: 'morningstar' }
+  { id: 'ILCB', tag: '大型股', category: '產業', name: 'iShares Morningstar Large-Cap ETF', etf: 'ILCB', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'ILCG', tag: '晨星成長股', category: '產業', name: 'iShares Morningstar Growth ETF', etf: 'ILCG', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'ILCV', tag: '大型價值股', category: '產業', name: 'iShares Morningstar Large-Cap Value ETF', etf: 'ILCV', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'IMCB', tag: '中型股', category: '產業', name: 'iShares Morningstar Mid-Cap ETF', etf: 'IMCB', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'IMCG', tag: '中型成長股', category: '產業', name: 'iShares Morningstar Mid-Cap Growth ETF', etf: 'IMCG', issuer: 'iShares', star: 4, type: 'morningstar' },
+  { id: 'IMCV', tag: '中型價值股', category: '產業', name: 'iShares Morningstar Mid-Cap Value ETF', etf: 'IMCV', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'ISCB', tag: '小型股', category: '產業', name: 'iShares Morningstar Small-Cap ETF', etf: 'ISCB', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'ISCG', tag: '小型成長股', category: '產業', name: 'iShares Morningstar Small-Cap Growth ETF', etf: 'ISCG', issuer: 'iShares', star: 3, type: 'morningstar' },
+  { id: 'ISCV', tag: '小型價值股', category: '產業', name: 'iShares Morningstar Small-Cap Value ETF', etf: 'ISCV', issuer: 'iShares', star: 3, type: 'morningstar' }
 ]
